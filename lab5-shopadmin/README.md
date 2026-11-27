@@ -77,3 +77,6 @@ Base URL `http://localhost:4000/api/v1` – JSON `{ success, message?, data? }`.
 Connect with `io('http://localhost:4000', { auth: { token } })`. Rooms: `user:<id>` (every user),
 `admins` (admins only), `products` (joined with `products:join`). Events: `productUpdated`,
 `newUserRegistered`, `orderStatusUpdated`.
+
+## Video demo (homework)
+https://drive.google.com/file/d/1JAFOa-4XaAKu0z3Nm56R0mYN0A1C9RWl/view?usp=sharing
