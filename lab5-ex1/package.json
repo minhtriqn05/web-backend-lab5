@@ -1,0 +1,18 @@
+{
+  "name": "lab5-ex1-pm2",
+  "version": "1.0.0",
+  "description": "Lab 5 Exercise 1 - Lab 4 Products API run with PM2 in cluster mode",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "pm2:start": "pm2 start ecosystem.config.js",
+    "burst": "node burst.js 2000 50"
+  },
+  "keywords": [],
+  "author": "Nguyen Minh Tri",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.3.0"
+  }
+}
